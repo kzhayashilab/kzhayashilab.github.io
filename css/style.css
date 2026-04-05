@@ -70,7 +70,7 @@ nav li {
 nav li a {
     text-decoration: none;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 nav a:hover {
     background-color: var(--back-color);   
