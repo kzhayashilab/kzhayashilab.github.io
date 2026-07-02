@@ -234,3 +234,10 @@ footer h5 {
     display: inline-block;
     color: var(--link-color);
 }
+
+/*追加した箇所　リンクが独立行にならないようにする*/
+.news a {
+
+    display: inline;
+
+}
