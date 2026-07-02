@@ -14,11 +14,24 @@ img {
 	max-width:100%;
 	height: auto;/*高さ自動*/
 }
+/*オリジナルのリンクのブロック表示デフォルトをコメントアウト
 a {
     display:block;
     color: var(--link-color);
     text-decoration-line: none;
+}*/
+
+/*代わりにインラインをデフォルト*/
+a {
+    color: var(--link-color);
+    text-decoration-line: none;
 }
+.head a,
+nav li a,
+#pagetop a {
+    display: block;
+}
+
 a:hover { 
     color: var(--linkhover-color);
 }
